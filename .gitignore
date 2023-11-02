@@ -6,6 +6,9 @@
 # goreleaser builds folder
 /.builds/
 
+# Artifacts
+dist
+
 # tests coverage
 coverage.out
 
