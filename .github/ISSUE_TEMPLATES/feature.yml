@@ -1,0 +1,36 @@
+name: Feature request
+description: File a feature request
+title: "Brief description of the requested feature"
+labels: ["request:feature"]
+projects: []
+assignees:
+  - reanimatedmanx
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your support.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the wanted feature in detail.
+      placeholder: An awesome description...
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      placeholder: An awesome description...
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
