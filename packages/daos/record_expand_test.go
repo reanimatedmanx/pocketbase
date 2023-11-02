@@ -9,8 +9,8 @@ import (
 	"github.com/pocketbase/pocketbase/packages/daos"
 	"github.com/pocketbase/pocketbase/packages/models"
 	"github.com/pocketbase/pocketbase/packages/models/schema"
-	"github.com/pocketbase/pocketbase/packages/tests"
 	"github.com/pocketbase/pocketbase/packages/tools/list"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestExpandRecords(t *testing.T) {

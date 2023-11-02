@@ -6,7 +6,7 @@ import (
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/pocketbase/pocketbase/packages/forms"
-	"github.com/pocketbase/pocketbase/packages/tests"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestEmailSendValidateAndSubmit(t *testing.T) {

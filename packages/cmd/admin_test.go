@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/pocketbase/pocketbase/packages/cmd"
-	"github.com/pocketbase/pocketbase/packages/tests"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestAdminCreateCommand(t *testing.T) {

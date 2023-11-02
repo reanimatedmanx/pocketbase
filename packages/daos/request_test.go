@@ -7,8 +7,8 @@ import (
 
 	"github.com/pocketbase/dbx"
 	"github.com/pocketbase/pocketbase/packages/models"
-	"github.com/pocketbase/pocketbase/packages/tests"
 	"github.com/pocketbase/pocketbase/packages/tools/types"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestRequestQuery(t *testing.T) {

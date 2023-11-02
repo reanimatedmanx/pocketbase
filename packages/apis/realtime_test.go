@@ -12,9 +12,9 @@ import (
 	"github.com/pocketbase/pocketbase/packages/core"
 	"github.com/pocketbase/pocketbase/packages/daos"
 	"github.com/pocketbase/pocketbase/packages/models"
-	"github.com/pocketbase/pocketbase/packages/tests"
 	"github.com/pocketbase/pocketbase/packages/tools/hook"
 	"github.com/pocketbase/pocketbase/packages/tools/subscriptions"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestRealtimeConnect(t *testing.T) {

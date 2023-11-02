@@ -10,8 +10,8 @@ import (
 	"github.com/pocketbase/pocketbase/packages/models"
 	"github.com/pocketbase/pocketbase/packages/models/schema"
 	"github.com/pocketbase/pocketbase/packages/plugins/migratecmd"
-	"github.com/pocketbase/pocketbase/packages/tests"
 	"github.com/pocketbase/pocketbase/packages/tools/types"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestAutomigrateCollectionCreate(t *testing.T) {

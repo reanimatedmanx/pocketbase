@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/pocketbase/pocketbase/packages/forms/validators"
-	"github.com/pocketbase/pocketbase/packages/tests"
 	"github.com/pocketbase/pocketbase/packages/tools/filesystem"
 	"github.com/pocketbase/pocketbase/packages/tools/rest"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestUploadedFileSize(t *testing.T) {

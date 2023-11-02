@@ -7,8 +7,8 @@ import (
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/pocketbase/pocketbase/packages/forms"
-	"github.com/pocketbase/pocketbase/packages/tests"
 	"github.com/pocketbase/pocketbase/packages/tools/filesystem"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestBackupUploadValidateAndSubmit(t *testing.T) {

@@ -14,7 +14,7 @@ import (
 
 	"github.com/labstack/echo/v5"
 	"github.com/pocketbase/pocketbase/packages/core"
-	"github.com/pocketbase/pocketbase/packages/tests"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestSettingsList(t *testing.T) {

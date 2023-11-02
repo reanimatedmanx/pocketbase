@@ -8,9 +8,9 @@ import (
 	"github.com/pocketbase/dbx"
 	"github.com/pocketbase/pocketbase/packages/models"
 	"github.com/pocketbase/pocketbase/packages/models/schema"
-	"github.com/pocketbase/pocketbase/packages/tests"
 	"github.com/pocketbase/pocketbase/packages/tools/list"
 	"github.com/pocketbase/pocketbase/packages/tools/types"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestSyncRecordTableSchema(t *testing.T) {

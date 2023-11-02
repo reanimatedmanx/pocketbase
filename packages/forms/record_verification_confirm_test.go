@@ -7,8 +7,8 @@ import (
 
 	"github.com/pocketbase/pocketbase/packages/forms"
 	"github.com/pocketbase/pocketbase/packages/models"
-	"github.com/pocketbase/pocketbase/packages/tests"
 	"github.com/pocketbase/pocketbase/packages/tools/security"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestRecordVerificationConfirmValidateAndSubmit(t *testing.T) {

@@ -12,8 +12,8 @@ import (
 	"github.com/labstack/echo/v5"
 	"github.com/pocketbase/pocketbase/packages/core"
 	"github.com/pocketbase/pocketbase/packages/models"
-	"github.com/pocketbase/pocketbase/packages/tests"
 	"github.com/pocketbase/pocketbase/packages/tools/list"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestCollectionsList(t *testing.T) {
