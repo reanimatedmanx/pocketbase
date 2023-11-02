@@ -11,7 +11,7 @@ import (
 
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/pocketbase/pocketbase/packages/forms"
-	"github.com/pocketbase/pocketbase/packages/tests"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestAppleClientSecretCreateValidateAndSubmit(t *testing.T) {

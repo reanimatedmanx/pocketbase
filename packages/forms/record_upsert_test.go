@@ -19,10 +19,10 @@ import (
 	"github.com/pocketbase/pocketbase/packages/forms"
 	"github.com/pocketbase/pocketbase/packages/models"
 	"github.com/pocketbase/pocketbase/packages/models/schema"
-	"github.com/pocketbase/pocketbase/packages/tests"
 	"github.com/pocketbase/pocketbase/packages/tools/filesystem"
 	"github.com/pocketbase/pocketbase/packages/tools/list"
 	"github.com/pocketbase/pocketbase/packages/tools/types"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func hasRecordFile(app core.App, record *models.Record, filename string) bool {

@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/pocketbase/pocketbase/packages/models"
-	"github.com/pocketbase/pocketbase/packages/tests"
 	"github.com/pocketbase/pocketbase/packages/tools/security"
 	"github.com/pocketbase/pocketbase/packages/tools/types"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestParamQuery(t *testing.T) {

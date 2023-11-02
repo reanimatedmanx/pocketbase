@@ -9,8 +9,8 @@ import (
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/pocketbase/pocketbase/packages/forms"
 	"github.com/pocketbase/pocketbase/packages/models/settings"
-	"github.com/pocketbase/pocketbase/packages/tests"
 	"github.com/pocketbase/pocketbase/packages/tools/security"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestNewSettingsUpsert(t *testing.T) {

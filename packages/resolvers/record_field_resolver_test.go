@@ -8,9 +8,9 @@ import (
 
 	"github.com/pocketbase/pocketbase/packages/models"
 	"github.com/pocketbase/pocketbase/packages/resolvers"
-	"github.com/pocketbase/pocketbase/packages/tests"
 	"github.com/pocketbase/pocketbase/packages/tools/list"
 	"github.com/pocketbase/pocketbase/packages/tools/search"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestRecordFieldResolverUpdateQuery(t *testing.T) {

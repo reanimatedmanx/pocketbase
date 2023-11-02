@@ -6,7 +6,7 @@ import (
 
 	"github.com/pocketbase/pocketbase/packages/forms"
 	"github.com/pocketbase/pocketbase/packages/models"
-	"github.com/pocketbase/pocketbase/packages/tests"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestAdminPasswordResetRequestValidateAndSubmit(t *testing.T) {

@@ -12,10 +12,10 @@ import (
 	"github.com/pocketbase/pocketbase/packages/forms/validators"
 	"github.com/pocketbase/pocketbase/packages/models"
 	"github.com/pocketbase/pocketbase/packages/models/schema"
-	"github.com/pocketbase/pocketbase/packages/tests"
 	"github.com/pocketbase/pocketbase/packages/tools/filesystem"
 	"github.com/pocketbase/pocketbase/packages/tools/rest"
 	"github.com/pocketbase/pocketbase/packages/tools/types"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 type testDataFieldScenario struct {

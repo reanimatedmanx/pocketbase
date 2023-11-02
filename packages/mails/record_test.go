@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/pocketbase/pocketbase/packages/mails"
-	"github.com/pocketbase/pocketbase/packages/tests"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestSendRecordPasswordReset(t *testing.T) {

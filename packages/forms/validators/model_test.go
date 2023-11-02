@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/pocketbase/pocketbase/packages/forms/validators"
-	"github.com/pocketbase/pocketbase/packages/tests"
+	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestUniqueId(t *testing.T) {

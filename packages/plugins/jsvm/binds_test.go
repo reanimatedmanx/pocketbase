@@ -20,10 +20,10 @@ import (
 	"github.com/pocketbase/pocketbase/packages/daos"
 	"github.com/pocketbase/pocketbase/packages/models"
 	"github.com/pocketbase/pocketbase/packages/models/schema"
-	"github.com/pocketbase/pocketbase/packages/tests"
 	"github.com/pocketbase/pocketbase/packages/tools/filesystem"
 	"github.com/pocketbase/pocketbase/packages/tools/mailer"
 	"github.com/pocketbase/pocketbase/packages/tools/security"
+	"github.com/pocketbase/pocketbase/tests"
 	"github.com/spf13/cast"
 )
 
