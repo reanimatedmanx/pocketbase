@@ -3,6 +3,10 @@
 
 .DS_Store
 
+# Modules
+
+node_modules
+
 # goreleaser builds folder
 /.builds/
 
