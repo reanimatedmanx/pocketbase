@@ -91,11 +91,11 @@ Running/building the application is the same as for any other Go program, aka. j
 If CGO is enabled (aka. `CGO_ENABLED=1`), it will use [mattn/go-sqlite3](https://pkg.go.dev/github.com/mattn/go-sqlite3) driver, otherwise - [modernc.org/sqlite](https://pkg.go.dev/modernc.org/sqlite).
 Enable CGO only if you really need to squeeze the read/write query performance at the expense of complicating cross compilation.
 
-To build the minimal standalone executable, like the prebuilt ones in the releases page, you can simply run `go build` inside the `examples/base` directory:
+To build the minimal standalone executable, like the prebuilt ones in the releases page, you can simply run `go build` inside the `apps/api` directory:
 
 0. [Install Go 1.19+](https://go.dev/doc/install) (_if you haven't already_)
 1. Clone/download the repo
-2. Navigate to `examples/base`
+2. Navigate to `apps/api`
 3. Run `GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build`
    (_https://go.dev/doc/install/source#environment_)
 4. Start the created executable by running `./base serve`.
