@@ -9,7 +9,7 @@ before:
 builds:
   # used only for tests
   - id: build_cgo
-    main: ./examples/base
+    main: ./apps/api
     binary: pocketbase
     ldflags:
       - -s -w -X github.com/pocketbase/pocketbase.Version={{ .Version }}
@@ -21,7 +21,7 @@ builds:
       - amd64
 
   - id: build_noncgo
-    main: ./examples/base
+    main: ./apps/api
     binary: pocketbase
     ldflags:
       - -s -w -X github.com/pocketbase/pocketbase.Version={{ .Version }}
@@ -55,14 +55,14 @@ archives:
       - CHANGELOG*
 
 checksum:
-  name_template: 'checksums.txt'
+  name_template: "checksums.txt"
 
 snapshot:
-  name_template: '{{ incpatch .Version }}-next'
+  name_template: "{{ incpatch .Version }}-next"
 
 changelog:
   sort: asc
   filters:
     exclude:
-      - '^examples:'
-      - '^ui:'
+      - "^examples:"
+      - "^ui:"

@@ -4,9 +4,10 @@ Thanks for taking the time to improve PocketBase!
 
 This document describes how to prepare a PR for a change in the main repository.
 
-- [Prerequisites](#prerequisites)
-- [Making changes in the Go code](#making-changes-in-the-go-code)
-- [Making changes in the Admin UI](#making-changes-in-the-admin-ui)
+- [Contributing to PocketBase](#contributing-to-pocketbase)
+  - [Prerequisites](#prerequisites)
+  - [Making changes in the Go code](#making-changes-in-the-go-code)
+  - [Making changes in the Admin UI](#making-changes-in-the-admin-ui)
 
 ## Prerequisites
 
@@ -27,11 +28,11 @@ git clone https://github.com/your_username/pocketbase.git
 
 PocketBase is distributed as a Go package, which means that in order to run the project you'll have to create a Go `main` program that imports the package.
 
-The repository already includes such program, located in `examples/base`, that is also used for the prebuilt executables.
+The repository already includes such program, located in `apps/api`, that is also used for the prebuilt executables.
 
 So, let's assume that you already done some changes in the PocketBase Go code and you want now to run them:
 
-1. Navigate to `examples/base`
+1. Navigate to `apps/api`
 2. Run `go run main.go serve`
 
 This will start a web server on `http://localhost:8090` with the embedded prebuilt Admin UI from `ui/dist`. And that's it!
@@ -72,7 +73,7 @@ To start the Admin UI:
 
 You could open the browser and access the running Admin UI at `http://localhost:3000`.
 
-Since the Admin UI is just a client-side application, you need to have the PocketBase backend server also running in the background (either manually running the `examples/base/main.go` or download a prebuilt executable).
+Since the Admin UI is just a client-side application, you need to have the PocketBase backend server also running in the background (either manually running the `apps/api/main.go` or download a prebuilt executable).
 
 > [!NOTE]
 > By default, the Admin UI is expecting the backend server to be started at `http://localhost:8090`, but you could change that by creating a new `ui/.env.development.local` file with `PB_BACKEND_URL = YOUR_ADDRESS` variable inside it.
