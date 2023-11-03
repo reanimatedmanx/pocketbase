@@ -4,6 +4,12 @@
   "description": "Open Source realtime backend in 1 file",
   "private": true,
   "scripts": {
+    "api:build": "go build ./apps/api",
+    "api:serve": "go run ./apps/api serve --dir ./apps/api/pb_data",
+    "api:admin": "go run ./apps/api admin --dir ./apps/api/pb_data",
+    "api:update": "go run ./apps/api update --dir ./apps/api/pb_data",
+    "api:migrate": "go run ./apps/api migrate --dir ./apps/api/pb_data",
+    "api:version": "go run ./apps/api version --dir ./apps/api/pb_data",
     "lint": "golangci-lint run -c ./golangci.yml ./...",
     "test": "go test ./... -v --cover",
     "test-report": "go test ./... -v --cover -coverprofile=coverage.out",
